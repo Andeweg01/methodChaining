@@ -9,3 +9,8 @@ On mouseenter remove the red class and add the border class.
 On mouseleave reverse the above.
 Use method chaining to achieve the above.
 
+### Challenge 2
+
+hide() / show() and fadeIn() / fadeOut() on button click. Create a second button and paragraph. Run the code and click on the buttons.
+Hide and show are applied on button 1 and fadeIn and Out are applied on button 2.
+
