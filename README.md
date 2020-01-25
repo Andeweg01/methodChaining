@@ -14,3 +14,5 @@ Use method chaining to achieve the above.
 hide() / show() and fadeIn() / fadeOut() on button click. Create a second button and paragraph. Run the code and click on the buttons.
 Hide and show are applied on button 1 and fadeIn and Out are applied on button 2.
 
+Challenge 4 solution will show in a screenshot called eirie.jpg
+
