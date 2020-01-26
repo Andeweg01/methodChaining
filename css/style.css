@@ -1,5 +1,5 @@
 
-#container
+.container
 {
 	display: flex;		/* makes container a flexbox*/
 	flex-flow: row wrap; 	/* layout the boxes in rows and wrap them*/
@@ -8,31 +8,15 @@
 	margin-left: auto;
 	max-width: 1050px;	
 }
-.bottom_button{
-	display: flex;
-	box-sizing: border-box;
-	border-radius: 4px;
-	width: 100%;
-	background-color:rgba(129, 187, 201,.85);
-	text-align: center;
-	padding: 1em .75em;
-	text-decoration: none;
-	color: #fff;
-}
 
-.card_bottom{
-	display: flex;
-	flex-flow: column;
-}
-
-.card{
+.box{
 	flex:1; /* */
 	display: flex;	/* make the contents controllable by flexbox*/
 	flex-flow: column;	/* */
 	max-width: 240px; /**/
 	margin: 10px;
 	padding: 20px;
-	background-color: #fff;
+	background-color: #000;
 }
 
 

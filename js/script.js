@@ -1,18 +1,6 @@
-$(document).ready(function() {
- 
-    $('#button1').mouseenter(function(){
-        $('#button1').removeClass('makeRed').addClass('makeBorder');
+$(document).ready(function(){
+    $(".box").on("click", function(){
+        var classNames = $(this).attr("class").split(" ");
+        $("." + classNames[1]).css("background-color", "red");
     });
-    $('#button1').mouseleave(function(){
-        $('#button1').removeClass('makeBorder').addClass('makeRed');
-    });
-
-    // challenge 2
-
-    $('#button1').click(function(){
-        $('#para1').hide('slow').show('slow');
-    });
-    $('#button2').click(function(){
-        $('#para2').fadeIn('slow').fadeOut('slow');
-    });
-}); 
+});
