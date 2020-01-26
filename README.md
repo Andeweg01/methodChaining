@@ -16,3 +16,4 @@ Hide and show are applied on button 1 and fadeIn and Out are applied on button 2
 
 Challenge 4 solution will show in a screenshot called eirie.jpg
 
+The last commit is typing along with the last video on 'this'.
